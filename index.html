@@ -19,43 +19,45 @@
         <div class="main-body">
 
             <div id="display">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
 
             </div>
 
             <div class="top-button-group">
                 <div class="btn button-group-1">
-                    <button>⌫</button>
-                    <button>÷</button>
-                    <button>×</button>
+                    <button data-delete>⌫</button>
+                    <button data-operation>÷</button>
+                    <button data-operation>×</button>
                 </div>
             </div>
 
             <div class="btn button-group-2">
-                <button class="white">7</button>
-                <button class="white">8</button>
-                <button class="white">9</button>
-                <button>C</button>
+                <button data-number class="white">7</button>
+                <button data-number class="white">8</button>
+                <button data-number class="white">9</button>
+                <button data-clear>C</button>
             </div>
 
             <div class="btn button-group-3">
-                <button class="white">4</button>
-                <button class="white">5</button>
-                <button class="white">6</button>
-                <button>−</button>
+                <button data-number class="white">4</button>
+                <button data-number class="white">5</button>
+                <button data-number class="white">6</button>
+                <button data-operation>−</button>
             </div>
 
             <div class="btn button-group-4">
-                <button class="white">1</button>
-                <button class="white">2</button>
-                <button class="white">3</button>
-                <button>+</button>
+                <button data-number class="white">1</button>
+                <button data-number class="white">2</button>
+                <button data-number class="white">3</button>
+                <button data-operation>+</button>
             </div>
 
             <div class="bottom-button-group">
                 <div class="btn button-group-5">
-                    <button class="white">0</button>
-                    <button class="white">.</button>
-                    <button>=</button>
+                    <button data-number class="white" id="zero">0</button>
+                    <button data-number class="white">.</button>
+                    <button data-equals id="equals">=</button>
                 </div>
             </div>
 
